@@ -18,8 +18,7 @@ def plot_count_plot(df, column, title):
     plt.title(title)
     plt.show()
     
-    
-    
+
 def plot_all_visualizations(df):
     fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(12, 8))
 

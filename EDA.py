@@ -16,7 +16,7 @@ def EDA_process(file_path):
     print(df.info())
     print(df.describe(include='all'))
     print(df.head())
-    
+    print(df['Item_Type'].unique())
     print(df['Item_Fat_Content'].unique())
     
     #replace LF and low fat with Low Fat / also reg with Regular
@@ -39,4 +39,6 @@ def EDA_process(file_path):
     
     
     print(df.isnull().sum())
+    
+
     return df
